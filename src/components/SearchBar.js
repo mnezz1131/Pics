@@ -29,7 +29,7 @@ onFormSubmit = (event) => {
        <div className="ui segment">
            <form onSubmit = {this.onFormSubmit} className="ui form">
              <div className="field">
-                <label >Image Search</label>
+                <label >UnSplash Api Image Search</label>
          {/* onInputChange is a callback function, don't use onInputchange () because it will call the the function everytime it's rendered. so we are  passing a reference to the funcion to the input element.  Don't use () when using a callback to an event handler 
          Property name is onChange
          */}
